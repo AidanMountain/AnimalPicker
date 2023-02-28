@@ -8,19 +8,25 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Would you like to see a dog or a cat?");
         String animal = scanner.nextLine();
-        System.out.println(animal);
-        while(isValid){
+        //System.out.println(animal);
+        //while(isValid){
             if(animal.equals("cat")){
                 System.out.println("INSTERT CAT ASCII HERE");
+                //animal = scanner.nextLine();
             }
             else if(animal.equals("dog")){
                 System.out.println("INSTERT DOG ASCII HERE");
+               // animal = scanner.nextLine();
             }
-            else{
-                isValid = false;
+            else if(!animal.equals("dog") && !animal.equals("cat")) isValid = false;
+            while(!isValid){
                 System.out.println("ERROR: INVALID INPUT");
+                System.out.println("PLEASE ENTER A VALID INPUT");
+                isValid = true;
+                animal = scanner.nextLine();
             }
-        }
+
+        //}
 
     }
 
