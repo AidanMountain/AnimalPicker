@@ -11,12 +11,16 @@ public class Main {
         //System.out.println(animal);
         //while(isValid){
             if(animal.equals("cat")){
-                System.out.println("INSTERT CAT ASCII HERE");
+                System.out.println("            _       \n" +
+                        "   ___ __ _| |_ ___ \n" +
+                        "  / __/ _` | __/ __|\n" +
+                        " | (_| (_| | |_\\__ \\\n" +
+                        "  \\___\\__,_|\\__|___/");
                 //animal = scanner.nextLine();
             }
             else if(animal.equals("dog")){
-                System.out.println("INSTERT DOG ASCII HERE");
-               // animal = scanner.nextLine();
+                System.out.println("            _       \n   ___ __ _| |_ ___ \n  / __/ _` | __/ __|\n | (_| (_| | |_\\__ \\\n  \\___\\__,_|\\__|___/");
+
             }
             else if(!animal.equals("dog") && !animal.equals("cat")) isValid = false;
             while(!isValid){
