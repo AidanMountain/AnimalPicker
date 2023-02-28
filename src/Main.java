@@ -6,12 +6,11 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Would you like to see a dog or a cat?");
         String animal = scanner.nextLine();
-
-        if(animal == "cat"){
-            System.out.println("INSTER CAT ASCII HERE");
+        System.out.println(animal);
+            System.out.println("INSTERT CAT ASCII HERE");
         }
-        else if(animal == "dog"){
-            System.out.println("INSTER DOG ASCII HERE");
+        else if(animal.equals("dog")){
+            System.out.println("INSTERT DOG ASCII HERE");
         }
     }
 
