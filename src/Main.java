@@ -7,6 +7,7 @@ public class Main {
         System.out.println("Would you like to see a dog or a cat?");
         String animal = scanner.nextLine();
         System.out.println(animal);
+        if(animal.equals("cat")){
             System.out.println("INSTERT CAT ASCII HERE");
         }
         else if(animal.equals("dog")){
