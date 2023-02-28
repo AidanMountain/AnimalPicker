@@ -13,6 +13,7 @@ public class Main {
         else if(animal.equals("dog")){
             System.out.println("INSTERT DOG ASCII HERE");
         }
+        else System.out.println("ERROR: INVALID INPUT");
     }
 
 }
